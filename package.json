@@ -1,7 +1,7 @@
 {
   "name": "marked-engine",
   "version": "0.1.0",
-  "description": "Express-compatible Markdown rendering using marked.",
+  "description": "Express-compatible Markdown rendering powered by marked.",
   "keywords": ["markdown", "template", "layout", "view", "engine", "express"],
   "repository": {
     "type": "git",
