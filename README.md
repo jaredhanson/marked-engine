@@ -1,5 +1,11 @@
 # marked-engine
 
+[![Build](https://img.shields.io/travis/jaredhanson/marked-engine.svg)](https://travis-ci.org/jaredhanson/marked-engine)
+[![Quality](https://img.shields.io/codeclimate/github/jaredhanson/marked-engine.svg?label=quality)](https://codeclimate.com/github/jaredhanson/marked-engine)
+[![Coverage](https://img.shields.io/coveralls/jaredhanson/marked-engine.svg)](https://coveralls.io/r/jaredhanson/marked-engine)
+[![Dependencies](https://img.shields.io/david/jaredhanson/marked-engine.svg)](https://david-dm.org/jaredhanson/marked-engine)
+
+
 [Markdown](http://daringfireball.net/projects/markdown/) rendering, powered by
 [marked](https://github.com/chjj/marked).
 
