@@ -1,5 +1,6 @@
 # marked-engine
 
+[![Version](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/marked-engine)
 [![Build](https://img.shields.io/travis/jaredhanson/marked-engine.svg?style=flat-square)](https://travis-ci.org/jaredhanson/marked-engine)
 [![Quality](https://img.shields.io/codeclimate/github/jaredhanson/marked-engine.svg?style=flat-square&label=quality)](https://codeclimate.com/github/jaredhanson/marked-engine)
 [![Coverage](https://img.shields.io/coveralls/jaredhanson/marked-engine.svg?style=flat-square)](https://coveralls.io/r/jaredhanson/marked-engine)
