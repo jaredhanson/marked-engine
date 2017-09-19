@@ -1,19 +1,17 @@
 var marked = require('../lib/index')
   , should = require('should')
 
-describe('marked', function() {
+describe('marked-engine', function() {
   
-  describe('module', function() {
-    it('should export render', function() {
-      marked.render.should.be.an.instanceOf(Function);
-    })
-    it('should export renderFile', function() {
-      marked.renderFile.should.be.an.instanceOf(Function);
-    })
-    it('should alias __express to renderFile', function() {
-      marked.__express.should.be.an.instanceOf(Function);
-      marked.__express.should.be.equal(marked.renderFile);
-    })
+  it('should export render', function() {
+    marked.render.should.be.an.instanceOf(Function);
+  })
+  it('should export renderFile', function() {
+    marked.renderFile.should.be.an.instanceOf(Function);
+  })
+  it('should alias __express to renderFile', function() {
+    marked.__express.should.be.an.instanceOf(Function);
+    marked.__express.should.be.equal(marked.renderFile);
   })
   
   describe('renderFile', function() {
