@@ -21,7 +21,7 @@ describe('marked', function() {
     it('should render h1', function(done) {
       marked.renderFile(__dirname + '/fixtures/hello.md', {}, function(err, str) {
         if (err) return done(err);
-        str.should.be.equal('<h1>Hello</h1>\n');
+        str.should.be.equal('<h1 id="hello">Hello</h1>\n');
         done();
       });
     })

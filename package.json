@@ -2,7 +2,14 @@
   "name": "marked-engine",
   "version": "0.1.0",
   "description": "Express-compatible Markdown rendering powered by marked.",
-  "keywords": ["markdown", "template", "layout", "view", "engine", "express"],
+  "keywords": [
+    "markdown",
+    "template",
+    "layout",
+    "view",
+    "engine",
+    "express"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/jaredhanson/marked-engine.git"
@@ -10,14 +17,21 @@
   "bugs": {
     "url": "http://github.com/jaredhanson/marked-engine/issues"
   },
-  "author": { "name": "Jared Hanson", "email": "jaredhanson@gmail.com", "url": "http://www.jaredhanson.net/" },
-  "licenses": [ {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT"
-  } ],
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
   "main": "./lib",
   "dependencies": {
-    "marked": "0.2.x"
+    "marked": "0.3.x",
+    "utils-merge": "1.x.x"
   },
   "devDependencies": {
     "mocha": "1.x.x",
@@ -26,5 +40,7 @@
   "scripts": {
     "test": "NODE_PATH=lib node_modules/.bin/mocha"
   },
-  "engines": { "node": ">= 0.4.0" }
+  "engines": {
+    "node": ">= 0.4.0"
+  }
 }
