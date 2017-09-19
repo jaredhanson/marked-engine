@@ -9,15 +9,15 @@
 [Markdown](http://daringfireball.net/projects/markdown/) rendering, powered by
 [marked](https://github.com/chjj/marked).
 
-## Installation
+marked-engine is an [Express](http://expressjs.com/)-compatible template engine
+for rendering Markdown.  It also a `render` function for integration with other
+frameworks.
+
+## Install
 
     $ npm install marked-engine
 
 ## Usage
-
-marked-engine is an [Express](http://expressjs.com/)-compatible template engine
-for rendering Markedown.  It also a `render` function for integration with other
-frameworks.
 
 Register `marked-engine` as the template engine for files ending with a ".md"
 extension.
@@ -27,17 +27,6 @@ extension.
 Render a response using Markdown.
 
     res.render('hello.md');
-
-## Tests
-
-    $ npm install --dev
-    $ make test
-
-[![Build Status](https://secure.travis-ci.org/jaredhanson/marked-engine.png)](http://travis-ci.org/jaredhanson/marked-engine)
-
-## Credits
-
-  - [Jared Hanson](http://github.com/jaredhanson)
 
 ## License
 
