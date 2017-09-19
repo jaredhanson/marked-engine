@@ -16,18 +16,24 @@ frameworks.
 
 ## Install
 
-    $ npm install marked-engine
+```bash
+$ npm install marked-engine
+```
 
 ## Usage
 
 Register `marked-engine` as the template engine for files ending with a ".md"
 extension.
 
-    app.engine('md', require('marked-engine').renderFile);
+```js
+app.engine('md', require('marked-engine').renderFile);
+```
 
 Render a response using Markdown.
 
-    res.render('hello.md');
+```js
+res.render('hello.md');
+```
 
 ## License
 
