@@ -1,10 +1,10 @@
 # marked-engine
 
-[![Version](https://img.shields.io/npm/v/marked-engine.svg?style=flat-square&label=version)](https://www.npmjs.com/package/marked-engine)
-[![Build](https://img.shields.io/travis/jaredhanson/marked-engine.svg?style=flat-square)](https://travis-ci.org/jaredhanson/marked-engine)
-[![Quality](https://img.shields.io/codeclimate/github/jaredhanson/marked-engine.svg?style=flat-square&label=quality)](https://codeclimate.com/github/jaredhanson/marked-engine)
-[![Coverage](https://img.shields.io/coveralls/jaredhanson/marked-engine.svg?style=flat-square)](https://coveralls.io/r/jaredhanson/marked-engine)
-[![Dependencies](https://img.shields.io/david/jaredhanson/marked-engine.svg?style=flat-square)](https://david-dm.org/jaredhanson/marked-engine)
+[![Version](https://img.shields.io/npm/v/marked-engine.svg?label=version)](https://www.npmjs.com/package/marked-engine)
+[![Build](https://img.shields.io/travis/jaredhanson/marked-engine.svg)](https://travis-ci.org/jaredhanson/marked-engine)
+[![Quality](https://img.shields.io/codeclimate/github/jaredhanson/marked-engine.svg?label=quality)](https://codeclimate.com/github/jaredhanson/marked-engine)
+[![Coverage](https://img.shields.io/coveralls/jaredhanson/marked-engine.svg)](https://coveralls.io/r/jaredhanson/marked-engine)
+[![Dependencies](https://img.shields.io/david/jaredhanson/marked-engine.svg)](https://david-dm.org/jaredhanson/marked-engine)
 
 
 [Markdown](http://daringfireball.net/projects/markdown/) rendering, powered by
