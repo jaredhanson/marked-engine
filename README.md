@@ -11,8 +11,7 @@
 [marked](https://github.com/chjj/marked).
 
 marked-engine is an [Express](http://expressjs.com/)-compatible template engine
-for rendering Markdown.  It also a `render` function for integration with other
-frameworks.
+for rendering Markdown.
 
 ## Install
 
