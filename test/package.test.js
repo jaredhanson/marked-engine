@@ -44,6 +44,14 @@ describe('marked-engine', function() {
       });
     })
 
+    it('should render links when cache on', function(done) {
+      marked.renderFile(__dirname + '/fixtures/link.md', { cache: true }, function(err, str) {
+        if (err) return done(err);
+        str.should.be.equal('<p><a href="#top">top</a></p>\n');
+        done();
+      });
+    })
+
     it('should error when rendering file that does not exist', function(done) {
       marked.renderFile(__dirname + '/fixtures/not-found.md', {}, function(err, str) {
         err.should.be.an.instanceOf(Error);
